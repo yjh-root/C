@@ -693,3 +693,128 @@ Process finished with exit code 12
 ```
 
 <font size="5" color="red">注意:考研不要想太多，不要想着代码的美观性，效率，是否优雅，关键是如何把题目以正常结果输出，不要想太多耽误了时间，得不偿失</font>
+
+# 八.数组
+
+27.数组特点:具有相同的数据类型，使用过程中需保留原始数据
+
+28.一维数组的定义格式:
+
+```
+类型说明符 数组名 [常量表达式];
+```
+
+eg.
+
+```
+int a[10];
+```
+
+29.规则:
+
+<font color="red" size="5">(1)数组名的命名规则和变量名的相同，即遵循标识符命名规则</font>
+
+<font color="red" size="5">(2)在定义数组时，需要指定数组中的元素的个数，方括号中的常量表达式用来表示元素的个数，即数组长度</font>
+
+<font color="red" size="5">(3)常量表达式中可以包含常量和符号常量，但不能包含变量。也就是说，C语言不允许对数组的大小做动态定义，即数组的大小不依赖于程序运行过程中变量的值</font>
+
+30.数组的访问越界
+
+<font color="red" size="5">C/C++在考虑到运行性能的问题，不会判断下标访问越界行为一直存在，编译器并不会只能报错，只能人为手动避免</font>
+
+eg.
+
+```
+#include <stdio.h>
+
+void main() {
+    int a[10]={0,1,2,3,4,5,6,7,8,9};
+    int j=20;
+    int i=10;
+    a[10]=30;
+    a[11]=40;
+    printf("%d\n",i);
+}
+```
+
+result
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+30
+
+Process finished with exit code 3
+```
+
+<font color="red" size="5">31.数组名传递到子函数后，子函数的形参接收的是数组的起始地址，因此不能把数组的长度传递给子函数</font>
+
+32.字符数组初始化
+
+eg.
+
+```
+#include <stdio.h>
+
+void main() {
+    char c[10]="Iamhappy";
+}
+```
+
+<font color="red" size="5">注:由于字符串数组会存一个结束符\0，所以数组长度至少比字符串长度大一位，否则会访问越界</font>
+
+33.字符串输出
+
+tureEg.
+
+```
+#include <stdio.h>
+
+void main() {
+    char c[11]="I am happy";
+    printf("%s\n",c);
+}
+```
+
+tureResult
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+I am happy
+
+Process finished with exit code 11
+```
+
+falseEg.
+
+```
+#include <stdio.h>
+
+void main() {
+    char c[10]="I am happy";
+    printf("%s\n",c);
+}
+```
+
+falseResult
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+I am happy厉餇
+
+Process finished with exit code 16
+```
+
+34.字符串输入
+
+eg.
+
+```
+#include <stdio.h>
+
+void main() {
+    char c[11];
+    scanf("%s",c);
+}
+```
+
+<font color="red" size="5">注:字符串数组名c中存储了数组的起始地址，因此不需要取地址符</font>
