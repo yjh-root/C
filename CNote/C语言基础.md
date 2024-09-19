@@ -818,3 +818,172 @@ void main() {
 ```
 
 <font color="red" size="5">注:字符串数组名c中存储了数组的起始地址，因此不需要取地址符</font>
+
+35.gets函数与puts函数
+
+gets函数类似于scanf函数，用于读取字符串标准输入
+
+puts函数类似于printf函数，用于字符串标准输出,puts内只能放字符数组名
+
+gets函数的格式如下:
+
+```
+char *gets(char *str);
+```
+
+puts函数的格式如下:
+
+```
+int puts(char *str);
+```
+
+eg.
+
+```
+#include <stdio.h>
+
+void main() {
+    char c[20];
+    gets(c);
+    puts(c);//puts(c);等价于printf("%s\n",c);
+}
+```
+
+result
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+how are you
+how are you
+
+Process finished with exit code 12
+```
+
+36.字符串操作函数
+
+strlen函数用于统计字符串的长度，strcpy函数用于将某个字符串复制到字符数组中，strcmp函数用于比较两个字符串的大小，strcat函数用于将两个字符串连接到一起。<font size="5" color="red">（注:初试的时候基本上不会考字符串的操作，主要用途是在复试上）</font>
+
+strlenEg.
+
+```
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+    char c[20];
+    char d[100]="hello";
+    gets(c);
+    puts(c);
+    int c_len=strlen(c);
+    printf("c_len=%d\n",c_len);
+}
+```
+
+result
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+world for me
+world for me
+c_len=12
+
+Process finished with exit code 9
+```
+
+strcatEg.
+
+```
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+    char c[20]="world";
+    char d[100]="hello";
+    strcat(d,c);
+    puts(d);
+}
+```
+
+result
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+helloworld
+
+Process finished with exit code 0
+```
+
+strcpyEg.
+
+```
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+    char c[20]="world";
+    char d[100]="hello";
+    strcat(d,c);
+    puts(d);
+    strcpy(d,c);
+    puts(d);
+}
+```
+
+result
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+helloworld
+world
+
+Process finished with exit code 0
+```
+
+strcmpEg.
+
+```
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+    char c[20]="world";
+    char d[100]="hello";
+    printf("c?d %d\n", strcmp(c,d));
+
+}
+```
+
+result
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+c?d 1
+
+Process finished with exit code 6
+```
+
+<font size="5" color="red">注:strcmp比较大小如果两值相等返回0，左值大于右值返回1，右值大于左值返回-1，strcmp比较大小是比较ASCII码的大小，不是比较字符长度大小</font>
+
+例题.反转字符串hello world
+
+```
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+    char c[100]="hello world";
+    char d[100]={0};
+    for (int i=0,j= strlen(c)-1;i< strlen(c);i++,j--) {
+        d[j]=c[i];
+    }
+    puts(d);
+}
+```
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+dlrow olleh
+
+Process finished with exit code 0
+```
+
