@@ -987,3 +987,76 @@ dlrow olleh
 Process finished with exit code 0
 ```
 
+37.地址:内存区域的每个字节都对应一个编号，这个编号就是地址。
+
+38.<font size="5" color="red">直接访问与间接访问:按变量地址存取变量值的方式称为“直接访问”，另一种取变量值的方式称为“间接访问”，在C语言中，指针变量是一种特殊的变量，它用来存放变量地址</font> 
+
+39.指针与指针变量是两个概念，一个变量的地址称为该变量的指针
+
+40.取地址操作符为&，也称<font size="5" color="red">引用</font>，取值操作符为*,也称<font size="5" color="red">解引用</font>
+
+eg.
+
+```
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+    int i=5;
+    int *i_point=&i;
+    printf("i=%d\n",i);//直接访问
+    printf("i=%d\n",*i_point);//间接访问
+}
+```
+
+result
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+i=5
+i=5
+
+Process finished with exit code 4
+```
+
+![image-20241012110822894](C语言基础.assets/image-20241012110822894.png)
+
+41.指针的使用场景:<font size="5" color="red">指针的使用场景通常只有两个，传递和偏移</font>
+
+42.<font size="5" color="red">进程地址空间：</font>
+
+![image-20241012161447996](C语言基础.assets/image-20241012161447996.png)
+
+<font size="5" color="red">代码未运行时称为程序，运行时称为进程</font>
+
+eg.
+
+```
+#include <stdio.h>
+#include <string.h>
+
+void change(int *j){
+    *j=10;
+}
+void main() {
+    int i=5;
+    printf("i=%d\n",i);
+    printf("i_p=%p\n",&i);
+    change(&i);
+    printf("i=%d\n",i);
+    printf("i_p=%p\n",&i);
+}
+```
+
+result
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+i=5
+i_p=000000d5ba1ff7dc
+i=10
+i_p=000000d5ba1ff7dc
+
+Process finished with exit code 21
+```
+

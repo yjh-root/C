@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
+void change(int *j){
+    *j=10;
+}
 void main() {
-    char c[100]="hello world";
-    char d[100]={0};
-    for (int i=0,j= strlen(c)-1;i< strlen(c);i++,j--) {
-        d[j]=c[i];
-    }
-    puts(d);
+    int i=5;
+    printf("i=%d\n",i);
+    printf("i_p=%p\n",&i);
+    change(&i);
+    printf("i=%d\n",i);
+    printf("i_p=%p\n",&i);
 }
