@@ -31,7 +31,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -175,7 +175,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -204,7 +204,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -235,7 +235,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -274,7 +274,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -310,7 +310,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -336,7 +336,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -368,7 +368,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -403,7 +403,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -442,7 +442,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -480,7 +480,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -508,7 +508,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -536,7 +536,7 @@ int main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -546,7 +546,7 @@ Process finished with exit code 0
 
 <font size="5" color="green">例题一：求取10000以内所有的对称数及其个数</font>
 
-code
+eg.
 
 ```
 #include <stdio.h>
@@ -595,7 +595,7 @@ void main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -626,7 +626,7 @@ Process finished with exit code 18
 
 <font size="5" color="green">例题二：张三有一张100元的钞票，现在张三要去干瞪眼，需要将这100的整钞票，换成零钱，因为现可以兑换10元，5元，2元1元四种钞票，规定每种钞票必须有一张，请问一共有多少种换法，并列举出这些换法</font>
 
-code
+eg.
 
 ```
 #include <stdio.h>
@@ -650,7 +650,7 @@ void main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -737,7 +737,7 @@ void main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -775,7 +775,7 @@ void main() {
 }
 ```
 
-tureResult
+tureIe.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -795,7 +795,7 @@ void main() {
 }
 ```
 
-falseResult
+falseIe.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -849,7 +849,7 @@ void main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -863,7 +863,7 @@ Process finished with exit code 12
 
 strlen函数用于统计字符串的长度，strcpy函数用于将某个字符串复制到字符数组中，strcmp函数用于比较两个字符串的大小，strcat函数用于将两个字符串连接到一起。<font size="5" color="red">（注:初试的时候基本上不会考字符串的操作，主要用途是在复试上）</font>
 
-strlenEg.
+eg.
 
 ```
 #include <stdio.h>
@@ -879,7 +879,7 @@ void main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -890,7 +890,7 @@ c_len=12
 Process finished with exit code 9
 ```
 
-strcatEg.
+eg.
 
 ```
 #include <stdio.h>
@@ -904,7 +904,7 @@ void main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -913,7 +913,7 @@ helloworld
 Process finished with exit code 0
 ```
 
-strcpyEg.
+eg.
 
 ```
 #include <stdio.h>
@@ -929,7 +929,7 @@ void main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -939,7 +939,7 @@ world
 Process finished with exit code 0
 ```
 
-strcmpEg.
+eg.
 
 ```
 #include <stdio.h>
@@ -953,7 +953,7 @@ void main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -964,7 +964,7 @@ Process finished with exit code 6
 
 <font size="5" color="red">注:strcmp比较大小如果两值相等返回0，左值大于右值返回1，右值大于左值返回-1，strcmp比较大小是比较ASCII码的大小，不是比较字符长度大小</font>
 
-例题.反转字符串hello world
+eg.反转字符串hello world
 
 ```
 #include <stdio.h>
@@ -979,6 +979,8 @@ void main() {
     puts(d);
 }
 ```
+
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -1009,7 +1011,7 @@ void main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -1048,7 +1050,7 @@ void main() {
 }
 ```
 
-result
+ie.
 
 ```
 D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
@@ -1060,3 +1062,417 @@ i_p=000000d5ba1ff7dc
 Process finished with exit code 21
 ```
 
+43.对于指针的加减称为<font size="5" color="red">指针的偏移</font>，加就是向后偏移，减就是向前偏移。
+
+44.在数组中，指针偏移的长度是其基类型的长度,例如int a[5]就偏移sizeof(int)，这样通过*(p+1)就可以得到元素a[1]
+
+eg.利用指针偏移正序和逆序输出数组变量
+
+```
+#include <stdio.h>
+#include <string.h>
+
+#define N 5
+void change(int *j){
+    *j=10;
+}
+void main() {
+    int a[N]={1,2,3,4,5};
+    int *p;
+    int i;
+    p=a;
+    for (i = 0; i <N ; ++i) {
+        printf("%3d",*(p+i));
+    }
+    printf("\n=========================\n");
+    p=&a[N-1];
+    for (i = 0; i <N ; i++) {
+        printf("%3d",*(p-i));
+    }
+}
+```
+
+ie.
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+  1  2  3  4  5
+=========================
+  5  4  3  2  1
+Process finished with exit code 3
+```
+
+eg.指针传递
+
+```
+#include <stdio.h>
+#include <string.h>
+
+#define N 5
+void change(char *d){
+    *d='H';
+    d[1]='E';
+    *(d+2)='L';
+
+}
+void main() {
+    char c[10]="hello";
+    change(c);
+    puts(c);
+}
+```
+
+ie.
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+HELlo
+
+Process finished with exit code 0
+```
+
+45.C语言的数组长度固定是因为其定义的变量都在<font size="5" color="red">栈空间</font>中，而栈空间的大小在编译时是确定的。如果使用的空间大小不确定，那么就要使用<font size="5" color="red">堆空间</font>
+
+eg.<font size="5" color="red">动态内存申请</font>
+
+```
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h> //malloc使用的头文件
+
+void main() {
+    int size;//size代表我们要申请多大字节的空间
+    char *p;//void*类型的指针不能偏移，因此不会定义无类型指针
+    scanf("%d",&size);//输入要申请的空间大小
+    p=(char *)malloc(size);//malloc返回的void*代表无类型指针
+    p[0]='H';
+    p[1]='O';
+    p[2]='W';
+    p[3]='\0';
+    puts(p);
+    strcpy(p,"malloc success");
+    puts(p);
+    free(p);//释放申请的空间(根据代码规范，申请了堆空间，使用完后就必须释放)
+    printf("free success\n");
+}
+```
+
+ie.
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+20
+HOW
+malloc success
+
+Process finished with exit code 0
+```
+
+46.<font size="5" color="red">栈是计算机系统提供的数据结构，计算机会在底层对栈提供支持，分配专门的寄存器放栈的地址，压栈操作、出栈操作都有专门的指令执行，这就决定了栈的效率比较高；堆则是C/C++函数库提供的数据结构，他的机制很复杂，例如为了分配一块内存，函数库会按照一定的算法在堆内存中搜索可用的足够大小的空间，如果没有足够大小的空间，那么就可能调用系统功能去增加程序数据段的内存空间，这样就有机会分到足够大小的内存然后返回。显然，堆的效率比栈低得多。</font>
+
+eg.堆和栈的差异
+
+```
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+char* print_stack(){
+    char c[100]="I am print_stack func";
+    char *p;
+    p=c;
+    puts(p);
+    return p;
+}
+char* print_malloc(){//堆空间在整个进程中一直有效，不因为函数结束而消亡
+    char *p=(char *) malloc(100);
+    strcpy(p,"I am print malloc func");
+    puts(p);
+    return p;
+}
+void main() {
+    char *p;
+    p=print_stack();
+    puts(p);
+    p=print_malloc();
+    puts(p);
+    free(p);//只用free，堆空间才会释放
+}
+```
+
+ie.
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+I am print_stack func
+��������5�S�
+I am print malloc func
+I am print malloc func
+
+Process finished with exit code 0
+```
+
+47.函数的概念
+
+(1)一个C程序由一个或多个程序模块组成，每个程序模块作为一个源程序文件。对于较大的程序，通常将程序内容分别放在若干源文件中，再由若干源程序文件组成一个C程序。这样处理便于<font size="5" color="red">分别编写、分别编译，进而提高调试效率（复试有用）</font>一个源程序文件可以为多个C程序共用
+
+(2)一个源程序文件由一个或多个函数及其他有关内容(如命令行，数据定义等)组成。一个源程序文件时一个编译单位，在程序编译时是以源程序文件为单位而不是以函数为单位进行编译的
+
+(3)C程序的执行是从main函数开始的，如果在main函数中调用其他函数，那么在调用后会返回到main函数中，在main函数中结束整个程序的运行
+
+(4)所有函数是平行的，即在定义函数时是分别进行的，并且互相独立的，一个函数并不从属于另一个函数，即<font size="5" color="red">函数不能嵌套定义（函数内不能定义函数）</font>。函数间可以互相调用，但是不能调用main函数。
+
+48.函数的声明与定义差异
+
+(1)函数的定义是指对函数功能的确立，包括指定函数名、函数值类型、形参及其类型、函数体等，他是一个完整的、独立的函数单位
+
+(2)函数的声明的作用是把函数的名字、函数类型及形参的类型、个数和顺序通知编译系统，以便在调用该函数时编译系统能正确识别函数并检查调用是否合法
+
+(3)隐式声明：C语言中有几种声明的类型名可以省略。例如，<font size="5" color="red">函数如果不显式地声明返回值的类型，那么默认它返回整型</font>；使用旧风格声明函数的形式参数时，如果省略参数的类型，那么编译器默认它们为整型
+
+49.递归调用:我们把函数自身调用自身的操作，称为递归函数，递归函数一定要结束条件，否则会进入死循环。递归的核心是找公式
+
+eg.假如有n个台阶，一次只能上1个台阶或2个台阶，请问走到第n个台阶有几种走法
+
+```
+#include "func.h"
+
+int step(int n){
+    if(1== n||2==n){
+        return n;
+    }
+    return step(n-1)+ step(n-2);
+}
+
+void main() {
+    for (int i = 1; i <10 ; ++i) {
+        int num=step(i);
+        printf("%d级台阶有%d种走法\n",i,num);
+    }
+}
+```
+
+ie.
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+1级台阶有1种走法
+2级台阶有2种走法
+3级台阶有3种走法
+4级台阶有5种走法
+5级台阶有8种走法
+6级台阶有13种走法
+7级台阶有21种走法
+8级台阶有34种走法
+9级台阶有55种走法
+
+Process finished with exit code 25
+```
+
+50.结构体定义：有时候需要将不同类型的数据组合为一个整体，以便于引用（个人感觉，类似于Java的list，只不过没有list那么灵活）
+
+eg.结构体示例
+
+```
+struct student{
+    int num;char name[20];char sex;
+    int age;float score;char addr[30];
+};
+```
+
+eg.结构体初始化及输入输出
+
+```
+#include "func.h"
+
+struct student{
+    int num;char name[20];char sex;
+    int age;float score;char addr[30];
+};//结构体类型声明，注意后面一定要加分号
+
+void main() {
+    struct student s={1001,"lele",'M',20,85.4f,"Shenzhen"};//结构体初始化，注意：结构体名字尽量不要和结构体类型名重名
+    //结构体输出必须单独去访问内部的每个成员
+    printf("num:%d,name:%s,sex:%c,age:%d,score:%5.2f,addr:%s\n",s.num,s.name,s.sex,s.age,s.score,s.addr);
+    //刷新缓冲区，避免输入输出顺序不正常
+    fflush(stdout);
+    //%d和%s可以挨着是因为%s是可以忽略空格，但是%c不会忽略任何字符，所以不能挨着，s.name就存着这个数组的起始地址，所以不需要&
+    scanf("%d%s %c%d%f%s",&s.num,s.name,&s.sex,&s.age,&s.score,s.addr);
+    printf("num:%d,name:%s,sex:%c,age:%d,score:%5.2f,addr:%s\n",s.num,s.name,s.sex,s.age,s.score,s.addr);
+}
+```
+
+ie.
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+num:1001,name:lele,sex:M,age:20,score:85.40,addr:Shenzhen
+1002 莉莉 F 22 2.5 北京
+num:1002,name:莉莉,sex:F,age:22,score: 2.50,addr:北京
+
+Process finished with exit code 58
+```
+
+eg.结构体数组输入输出
+
+```
+#include "func.h"
+
+struct student{
+    int num;char name[20];char sex;
+    int age;float score;char addr[30];
+};//结构体类型声明，注意后面一定要加分号
+
+void main() {
+    struct student sarr[3];
+    int i;
+    for (i = 0; i < 3; ++i) {
+        scanf("%d%s %c%d%f%s",&sarr[i].num,sarr[i].name,&sarr[i].sex,&sarr[i].age,&sarr[i].score,sarr[i].addr);
+    }
+    for (i = 0; i < 3; ++i) {
+        printf("num:%d,name:%s,sex:%c,age:%d,score:%5.2f,addr:%s\n",sarr[i].num,sarr[i].name,sarr[i].sex,sarr[i].age,sarr[i].score,sarr[i].addr);
+    }
+}
+```
+
+ie.
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+001 张三 M 18 66.5 北京
+002 李四 F 19 70.5 上海
+003 王五 M 20 100 广东
+num:1,name:张三,sex:M,age:18,score:66.50,addr:北京
+num:2,name:李四,sex:F,age:19,score:70.50,addr:上海
+num:3,name:王五,sex:M,age:20,score:100.00,addr:广东
+
+Process finished with exit code 56
+```
+
+51.结构体对齐（计算结构体的大小）:<font size="5" color="red">结构体的大小必须是其最大成员的整数倍</font>
+
+为什么要对齐：就是为了CPU高效的去取内存上的数据
+
+eg.
+
+```
+#include "func.h"
+
+struct student_type1{
+    double score;//double是一种浮点类型，8个字节，浮点类型分为float(4字节)和double(8字节)
+    short age;//short是整型，占2字节，int占4字节
+    //按最大成员整数倍对齐，所以是16
+};
+
+struct student_type2{
+    double score;//8
+    int height;//4
+    short age;//2
+    //按最大成员整数倍对齐，所以是16(如果两个小存储之和小于最大长度，那么可以结合到一起)
+};
+
+struct student_type3{
+    int height;//4
+    char sex;//1
+    short age;//2
+    //按最大成员整数倍对齐，所以是8(和student_type2同理)
+};
+
+void main() {
+    struct student_type1 s1;
+    struct student_type2 s2;
+    struct student_type3 s3;
+    printf("s1 sizeOf is %d\n", sizeof(s1));
+    printf("s2 sizeOf is %d\n", sizeof(s2));
+    printf("s3 sizeOf is %d\n", sizeof(s3));
+}
+```
+
+ie.
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+s1 sizeOf is 16
+s2 sizeOf is 16
+s3 sizeOf is 8
+
+Process finished with exit code 15
+```
+
+52.结构体指针：一个结构体变量的指针就是该变量所占据的内存段的起始地址。可以设置一个指针变量，用它指向一个结构体变量，此时该指针变量的值是结构体变量的起始地址。指针变量也可以用来指向结构体数组中的元素，从而能够通过结构体指针快速访问结构体内的每个成员。
+
+eg.结构体指针及结构体数组指针
+
+```
+#include "func.h"
+
+struct student{
+    int num;
+    char name[20];
+    char sex;
+};
+
+void main() {
+    struct student s={1001,"zhangSan",'M'};
+    struct student sArr[3]={1001,"zhangSan",'M',1002,"liSi",'F',1003,"wangWu",'M'};
+    struct student *p;//定义结构体指针变量
+    p=&s;
+    printf("%d %s %c\n",p->num,p->name,p->sex);//通过结构体指针去访问成员
+    printf("=========================================\n");
+    p=sArr;
+    printf("%d %s %c\n",p->num,p->name,p->sex);
+    printf("=========================================\n");
+    p=p+1;
+    printf("%d %s %c\n",p->num,p->name,p->sex);
+    printf("=========================================\n");
+    p=p+1;
+    printf("%d %s %c\n",p->num,p->name,p->sex);
+}
+```
+
+ie.
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+1001 zhangSan M
+=========================================
+1001 zhangSan M
+=========================================
+1002 liSi F
+=========================================
+1003 wangWu M
+
+Process finished with exit code 14
+```
+
+eg.typedef用法
+
+```
+#include "func.h"
+
+//typedef的使用，typedef起别名
+//stu等价于struct student
+//*pStu等价于struct student*
+typedef struct student{
+    int num;
+    char name[20];
+    char sex;
+}stu,*pStu;
+typedef int I;//在特定场景使用，便于整体修改
+void main() {
+    stu s={1001,"张三",'M'};//定义结构体及初始化
+    stu *p=&s;//方法一：定义结构体指针
+    pStu p1=&s;//方法二：定义结构体指针
+    I num=10;
+    printf("num=%d,p->num=%d\n",num,p->num);
+}
+```
+
+```
+D:\CLionProjects\C\cmake-build-debug-mingw\C.exe
+num=10,p->num=1001
+
+Process finished with exit code 19
+```
+
+<font size="5" color="red">从此处开始，所有的代码示例将都用C++来写</font>
